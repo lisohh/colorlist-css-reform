@@ -12,7 +12,8 @@
     ]
   },
   "devDependencies": {
-    "typescript": "latest",
-    "react-refresh": "0.10.0"
+    "cypress": "^10.8.0",
+    "react-refresh": "0.10.0",
+    "typescript": "latest"
   }
 }
