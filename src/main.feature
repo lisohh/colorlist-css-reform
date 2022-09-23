@@ -1,6 +1,11 @@
-Feature: main
+Feature: 메인화면
 
-  Scenario: Scenario name
-    Given Start to type your Given step here
-    When Start to type your When step here
-    Then Start to type your Then step here
+  Scenario: 가장 조회수가 많은 문제를 5개 볼 수 있다
+    Then "사람들이 가장 많이 조회한 문제 TOP5"라는 제목이 있고
+    Then 그 제목에 해당하는 listitem이 5개 있다
+    Then 각 아이템에는 순위, 문제 제목, 조회수가 있어야 한다
+
+  Scenario: 사람들이 가장 많이 저장한 문제를 5개 볼 수 있다
+    Then "사람들이 가장 많이 저장한 문제 TOP5"라는 제목이 있고
+    Then 그 제목에 해당하는 listitem이 5개 있다
+    Then 각 아이템에는 순위, 문제 제목, 저장수가 있어야 한다
